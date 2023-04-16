@@ -1,0 +1,51 @@
+
+.container{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+	margin: 0;
+    display: inline-block;
+    position:relative;
+}
+
+.landingContainer  {    
+    justify-content: center;    
+    margin-top: 1%;
+    box-shadow: 0 0px 20px 0px lightblue; 
+    border-radius: 2%;
+    width: 80%;   
+}
+
+.button{   
+    position: absolute;
+    font-size: 28px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    bottom: 7%;
+    right: 30%;
+    border: 1px solid lightblue;  
+    background:none;
+    border-radius:1em;
+    color:white;
+    box-shadow: 0 1px 7px 1px #6C6156; 
+    padding:1em 1em;
+    cursor:pointer;    
+}
+
+
+.button:hover{
+    cursor: pointer;
+    background-color:lightblue;
+    color:black;         
+}
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}

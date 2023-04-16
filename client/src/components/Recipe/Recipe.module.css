@@ -1,0 +1,60 @@
+.divRecipe{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    background-color:silver;
+    justify-content:space-around;
+    align-items: center;
+   /* border: 2px solid #6d6b6b; */
+   border: 6px ridge rgb(192, 189, 189);
+    box-shadow: 0 1px 7px 1px #92eefd; 
+    border-radius: 5px;
+    margin-bottom: 0.2em;
+    cursor:pointer;
+    width:75%;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform:translateZ(0);
+    transition: transform 0.25s ease-out;   
+    
+}
+.divRecipe:hover{
+    transform: scale(1.05);
+}
+.img{     
+    width: 100%;
+    box-shadow: 0 1px 7px 1px rgb(50, 51, 51); 
+}
+.button{
+    position:relative; 
+    margin-left: 20px;  
+    margin-right: 2em;
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    padding:0.5em 1em;
+    background: none;
+    color:brown;   
+    cursor: pointer;    
+    border: 1px solid lightblue;    
+    border-radius:1em;  
+    box-shadow: 0 1px 7px 1px #0f0f0f; 
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:lightblue;
+    color:black;    
+    
+}
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
